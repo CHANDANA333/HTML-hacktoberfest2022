@@ -20,20 +20,20 @@
             height: 100vh;
             background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: left;
         }
         
         .container {
             background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-            padding: 20px;
-            width: 370px;
-            border-radius: 8px;
+            padding: 40px;
+            width: 400px;
+            border-radius: 27px;
         }
         
         h1 {
-            font-size: 32px;
-            color: white;
+            font-size: 36px;
+            color: grey;
             text-align: center;
             margin-bottom: 14px;
         }
