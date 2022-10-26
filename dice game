@@ -21,9 +21,9 @@
         }
         
         h1 {
-            margin: 30px;
+            margin:50px;
             font-family: 'Lobster', cursive;
-            text-shadow: 5px 0 #232931;
+            text-shadow: 7px 0 #232931;
             font-size: 6rem;
             color: #4ECCA3;
         }
@@ -39,16 +39,16 @@
         }
         
         button {
-            color: whitesmoke;
+            color: white;
             background-color: #4ECCA3;
             ;
             display: block;
             margin: 25px auto 20px auto;
             border: 1px solid grey;
-            border-radius: 5px;
-            letter-spacing: 1px;
-            padding: 15px 5px;
-            width: 150px;
+            border-radius: 15px;
+            letter-spacing: 2px;
+            padding: 15px 10px;
+            width: 200px;
             font-family: 'Lobster', cursive;
             font-size: 20px;
             font-weight: lighter;
