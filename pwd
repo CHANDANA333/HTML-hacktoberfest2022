@@ -26,14 +26,14 @@
         
         .container {
             background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-            padding: 40px;
+            padding: 50px;
             width: 400px;
-            border-radius: 27px;
+            border-radius: 28px;
         }
         
         h1 {
             font-size: 36px;
-            color: grey;
+            color: pink;
             text-align: center;
             margin-bottom: 14px;
         }
@@ -64,7 +64,7 @@
         .p-head button,
         .form input[type=number] {
             padding: 3px 5px;
-            background-color: #eee;
+            background-color: pink;
             outline: none;
             border: none;
             border-radius: 3px 0 0 0;
@@ -85,7 +85,7 @@
             width: 60%;
             padding: 12px;
             margin: 10px auto 0;
-            background-color: #1db3b3c4;
+            background-color: green;
             justify-content: center;
             color: azure;
             font-size: 16px;
@@ -116,7 +116,7 @@
         <div class="p-body">
             <div class="form">
                 <label for="p-length">Password Length</label>
-                <input type="number" id="p-length" value="10" min="8" max="25">
+                <input type="number" id="p-length" value="15" min="8" max="25">
             </div>
             <div class="form">
                 <label for="p-symbols">Include Symbols</label>
