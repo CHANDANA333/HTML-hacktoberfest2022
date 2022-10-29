@@ -17,12 +17,12 @@
         }
         
         body {
-            background-color: #606960;
+            background-color: lightyellow;
         }
         
         h1 {
             margin:50px;
-            font-family: 'Arial', cursive;
+            font-family: 'lucida', cursive;
             text-shadow: 7px 0 #232931;
             font-size: 6rem;
             color: #4ECCA3;
@@ -30,7 +30,7 @@
         
         p {
             font-size: 2rem;
-            color: #4ECCA3;
+            color: black;
             font-family: 'Indie Flower', cursive;
         }
         
@@ -55,12 +55,12 @@
         }
         
         button:hover {
-            background-color: #91eda8;
+            background-color: yellow;
             color: rgb(32, 30, 30);
         }
         
         footer {
-            margin-top: 5%;
+            margin-top: 10%;
             color: #EEEEEE;
             text-align: center;
             font-family: 'Arial', cursive;
@@ -111,7 +111,7 @@
 </body>
 
 <footer>
-    <p class="demo">@ Shabnam.</p>
+    <p class="demo">@ sadiya.</p>
 </footer>
 
 </html>
