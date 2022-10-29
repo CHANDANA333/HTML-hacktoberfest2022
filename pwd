@@ -10,13 +10,13 @@
     <title>Document</title>
     <style>
         * {
-            margin: 0;
-            padding: 0;
+            margin: 10;
+            padding: 10;
             box-sizing: border-box;
         }
         
         body {
-            font-family: "poppins", sans-serif;
+            font-family: "lucida", sans-serif;
             height: 100vh;
             background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
             display: flex;
@@ -33,7 +33,7 @@
         
         h1 {
             font-size: 36px;
-            color: pink;
+            color: violet;
             text-align: center;
             margin-bottom: 14px;
         }
@@ -64,7 +64,7 @@
         .p-head button,
         .form input[type=number] {
             padding: 3px 5px;
-            background-color: pink;
+            background-color: lightblue;
             outline: none;
             border: none;
             border-radius: 3px 0 0 0;
@@ -87,7 +87,7 @@
             margin: 10px auto 0;
             background-color: green;
             justify-content: center;
-            color: azure;
+            color: lightgreen;
             font-size: 16px;
             border: none;
             border-radius: 5px;
@@ -95,12 +95,12 @@
         }
         
         #sub:hover {
-            background-color: #18e9e9f6;
+            background-color: lightyellow;
             color: black;
         }
         
         #sub:active {
-            background-color: #18e9e9f6;
+            background-color: lightgreen;
             color: black;
         }
     </style>
