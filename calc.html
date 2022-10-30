@@ -18,7 +18,8 @@
         
         body {
             font-family: 'popins', sans-serif;
-            background: linear-gradient(90deg, #e3e2e4 0%, #e6c8e7 100%);
+            /* background: linear-gradient(90deg, #e3e2e4 0%, #e6c8e7 100%); */
+            background: linear-gradient(to bottom, #59139b ,#14a3a3);
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -34,7 +35,7 @@
         .calculator {
             width: 320px;
             height: 520px;
-            background-color: #a960ca;
+            background-color: #7255e5;
             margin: 0 auto;
             top: 20px;
             position: relative;
@@ -77,6 +78,12 @@
             border-width: 0;
             font-weight: bold;
             font-size: 15px;
+            transition:all .2s ease-out 0s;
+        }
+        .number:hover,
+        .operator:hover,
+        .empty:hover{
+            box-shadow: 0px 0px 10px rgb(33, 226, 236);
         }
         
         .number,
