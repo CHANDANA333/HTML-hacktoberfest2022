@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>prime number checker</title>
+</head>
+<body>
+    <input type="text" placeholder="Type number to check prime or not..." id="myInput">
+    <button type="button" onclick="getInputValue();">Get Value</button>
+    
+    <script>
+        function getInputValue(){
+           var num, i, chk=0;
+var num = document.getElementById("myInput").value;
+for(i=2; i<num; i++)
+{
+  if(num%2==0)
+  {
+    chk++;
+    break;
+  }
+}
+if(chk==0)
+  document.write(num + " is a Prime Number");
+else
+  document.write(num + " is not a Prime Number");
+
+        }
+    </script>
+</body>
+</html>
