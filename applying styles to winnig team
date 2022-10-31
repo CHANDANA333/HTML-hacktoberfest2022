@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Hocey Teams</title>
+        <style>
+         table,td,th  {
+                     border:2px solid black;
+                     border-collapse: collapse;
+         }
+        </style>
+    </header>
+    <body>
+        <h3 align="center">Teams Playing</h3>
+        <table style="width:50%">
+        <tr>
+            <th style="background-color:aqua">Andra Team </th>
+            <th style="background-color:blue">Ts Team</th>
+        </tr>
+        <tr>
+            <td style="color:aqua">Akash</td>
+            <td style="color:blue">Rohith</td>
+        </tr>
+        <tr>
+            <td style="color:aqua">Madhu</td>
+            <td style="color:blue">Nandu</td> 
+        </tr>
+        <tr>
+            <td style="color:aqua">Kishore</td>
+            <td style="color:blue">Kalyan</td> 
+        </tr>
+        <tr>
+            <td style="color:aqua">Lalith</td>
+            <td style="color:blue">Kranthi</td> 
+        </tr>
+        <tr>
+            <td style="color:aqua">Siva</td>
+            <td style="color:blue">Bharath</td>
+        </tr>
+        <tr>
+            <td style="color: forestgreen;">Winning Team:<i>250</i></td>
+            <td style="color:crimson;">Lossing Team:230</td>
+        </tr>
+        </table>
+    </body> 
+</html>
